@@ -1,0 +1,28 @@
+{
+  "name": "botwa",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node --import tsx main.ts",
+    "dev": "node --watch --import tsx main.ts"
+  },
+  "author": "Nia",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.20",
+    "axios": "^1.13.2",
+    "ffmpeg-image-diff": "^1.16.0",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "mathjs": "^12.4.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
