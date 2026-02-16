@@ -3,5 +3,9 @@ dist/
 build/
 .env
 .DS_Store
+.wwebjs_auth/
+.baileys_auth/
+baileys_auth/
+.wwebjs_auth/
 *.log
 .idea/
